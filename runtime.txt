@@ -1,1 +1,2 @@
-python-3.8.1
+#Herokou needs at least 3.8.2 to work was at 1
+python-3.8.2
