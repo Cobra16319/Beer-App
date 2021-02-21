@@ -6,7 +6,8 @@ class Config(object):
     DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
-    SECRET_KEY = os.environ['AWS_SECRET_KEY']
+  # SECRET_KEY = os.environ['AWS_SECRET_KEY']
+    SECRET_KEY = "Use_This_For_Testing"
     SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
 
 class ProductionConfig(Config):
